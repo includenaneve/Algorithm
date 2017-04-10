@@ -8,5 +8,6 @@ public class minesti {
         fun kk = new fun(a);
         System.out.println(kk.randomMinSelect(a,1,a.length-1,32));
 
+
     }
 }
