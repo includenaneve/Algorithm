@@ -1,3 +1,4 @@
+package MaxSubArrays;
 import java.util.Arrays;
 
 public class maxSubArray {
@@ -24,9 +25,4 @@ public class maxSubArray {
         System.out.println("最大子数组的和是: " + maxSum);
         System.out.println("最大子数组序列:" + Arrays.toString(subArray));
     }
-
-
-
-
-
 }

@@ -1,3 +1,4 @@
+package Selection;
 import java.util.Random;
 public class fun {
     private static int a[];

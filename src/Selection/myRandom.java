@@ -1,4 +1,4 @@
-package MaxSubArrays;
+package Selection;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,7 +9,7 @@ public class myRandom {
     String fileName;
     int[] a;
 
-    public myRandom(int num,String fileName) {
+    public myRandom(int num, String fileName) {
         this.num = num;
         this.fileName = fileName;
         a = new int[num];

@@ -1,3 +1,4 @@
+package MaxSubArrays;
 import java.util.Arrays;
 
 public class main {
