@@ -1,9 +1,8 @@
 package DynamicProgramming;
-
 /**
  * Created by naneve on 2017/4/20.
  */
-public class main {
+public class assemblyLineMain {
     public static void main(String[] args)
     {
         int n = 6;//n个工作站
