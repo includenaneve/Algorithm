@@ -3,5 +3,6 @@
 .idea/
 AlgorithmAnalsis.iml
 out/
-thousand.txt
-10K.txt
+*.txt
+chart.jpeg
+*.jpg

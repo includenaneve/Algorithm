@@ -1,5 +1,4 @@
 package DynamicProgramming;
-
 /**
  * Created by naneve on 2017/4/20.
  * 动态规划:矩阵连乘问题
@@ -41,7 +40,7 @@ public class matrixChainMultiplication {
             for (int i = 1; i < n - l + 1; i++) {
                 int j = i + l - 1;
                 m[i][j] = Integer.MAX_VALUE;
-                for (int k = i; k <= j - 1; k++) {
+                for (int  k= i; k <= j - 1; k++) {
                     int q = m[i][k] + m[k + 1][j] + p[i - 1] * p[k] * p[j];
                     if (q < m[i][j]) {
                         m[i][j] = q; //记录乘法次数最少次数

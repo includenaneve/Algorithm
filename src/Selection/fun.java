@@ -35,6 +35,21 @@ public class fun {
         swap(r, i);
         return partition(p, r);
     }
+    public void geta()
+    {
+        int num = 0;
+        for(int i=0;i<50000;i++)
+        {
+            num++;
+            if(num == 10)
+            {
+                num = 0;
+                System.out.print("\n");
+            }
+            System.out.print("【"+(i+1)+"】"+" "+a[i]+" ");
+        }
+
+    }
 
 
     /**
@@ -58,6 +73,20 @@ public class fun {
             return randomMinSelect(a, p, q - 1, i);
         } else {
             return randomMinSelect(a, q + 1, r, i - k);
+        }
+    }
+
+    public void insertSort() {
+        for (int i = 1; i < a.length; i++) //默认第一个数是有序的
+        {
+            int temp = a[i];  //从第一个无序的数开始插入
+            int j = i;
+            while (j > 0 && temp < a[j - 1])  //如果该数比前一个数小，交换
+            {
+                a[j] = a[j - 1];
+                j--;
+            }
+            a[j] = temp;
         }
     }
 
